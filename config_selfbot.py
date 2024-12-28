@@ -7,7 +7,7 @@ from utils import rpc
 
 # en: SelfBot name
 # fr: Nom du SelfBot
-selfbot_name = "Nuclear" # Tip: Don't use the "Selfbot" word into your selfbot name, most of servers blacklist this word with AutoMod
+selfbot_name = "yvl" # Tip: Don't use the "Selfbot" word into your selfbot name, most of servers blacklist this word with AutoMod
 
 # en: Account Token.
 # fr: Token du compte.
@@ -27,11 +27,11 @@ discord_log = True
 
 # en: Default Nitro Sniper mode. (True=On, False=Off)
 # fr: Mode du Nitro Sniper par défaut. (True=On, False=Off)
-nitro_sniper = False
+nitro_sniper = True
 
 # en: Commands delay of delete.
 # fr: Délai de supression des commandes.
-deltime = 20
+deltime = 2.5
 ########################
 
 
@@ -74,24 +74,24 @@ good_person_list = [
 #######################
 # en: Ban reason (for &banall).
 # fr: Raison du banissement (pour &banall).
-ban_reason = "ezzed by Nuclear lol."
-kick_reason = "ezzed by Nuclear lol."
+ban_reason = "ezzed by jon lol."
+kick_reason = "ezzed by jon lol."
 
 #######################
 # fr: RPC par défaut  #
 # en: Default RPC     #
 #######################
 
-activity_name = "☄"
+activity_name = "/guts"
 activity_details = " "
 activity_state = " "
-application_id = 1193291951290712154
+application_id = 1246580952415866881
 
 streaming_url = "https://twitch.tv/twitch"
-activity_button_one = "Nuclear !"
-activity_button_one_answer = "https://github.com/Sitois/Nuclear" # doesn't work for the moment
-activity_button_two = "Star it!"
-activity_button_two_answer = "https://github.com/Sitois/Nuclear" # doesn't work for the moment
+activity_button_one = "join up"
+activity_button_one_answer = "https://discord.com/guts" # doesn't work for the moment
+activity_button_two = "/guts"
+activity_button_two_answer = "https://discord.gg/guts" # doesn't work for the moment
 
 # see &tuto
 icon = rpc.get_raw_json("Sitois", "Nuclear-V2", "assets.json")
