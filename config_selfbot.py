@@ -11,7 +11,7 @@ selfbot_name = "yvl" # Tip: Don't use the "Selfbot" word into your selfbot name,
 
 # en: Account Token.
 # fr: Token du compte.
-token = ""
+token = "NjYxNjYxOTA3NjY0NTAyODEz.Gzjbwi.av8KSYeLanaEoHhoaNaEwYEZ-hPgjWjHO_MWKQ"
 
 # en: Commands prefix.
 # fr: Prefix des commandes.
